@@ -1,2 +1,2 @@
-.. image:: images/nextgenio_logo.png
+.. image:: images/epcc_logo.png
    :align: right

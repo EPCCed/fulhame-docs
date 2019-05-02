@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'nextgenio-docs'
-copyright = u'2019, nextgenio_project'
-author = u'nextgenio_project'
+project = u'fulhame-docs'
+copyright = u'2019, EPCC, The University of Edinburgh'
+author = u'EPCCed'
 
 # The short X.Y version
 version = u''
@@ -103,7 +103,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'nextgenio-docsdoc'
+htmlhelp_basename = 'fulhame-docsdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -130,8 +130,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'nextgenio-docs.tex', u'nextgenio-docs Documentation',
-     u'nextgenio\\_project', 'manual'),
+    (master_doc, 'fulhame-docs.tex', u'fulhame-docs Documentation',
+     u'fulhame\\_project', 'manual'),
 ]
 
 
@@ -140,7 +140,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'nextgenio-docs', u'nextgenio-docs Documentation',
+    (master_doc, 'fulhame-docs', u'fulhame-docs Documentation',
      [author], 1)
 ]
 
@@ -151,8 +151,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'nextgenio-docs', u'nextgenio-docs Documentation',
-     author, 'nextgenio-docs', 'One line description of project.',
+    (master_doc, 'fulhame-docs', u'fulhame-docs Documentation',
+     author, 'fulhame-docs', 'One line description of project.',
      'Miscellaneous'),
 ]
 

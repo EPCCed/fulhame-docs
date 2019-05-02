@@ -1,7 +1,7 @@
 Connecting to the System
 ========================
 
-This section covers the basic methods for connecting to the NEXTGenIO prototype. 
+This section covers the basic methods for connecting to the Fulhame prototype. 
 The first part describes how to set up the initial connection, and gives a 
 summary of how to ease the connecting process (after the initial login) using 
 SSH keys. 
@@ -15,7 +15,7 @@ Quick Setup
 Acquiring Permissions
 ---------------------
 
-In order to access the NEXTGenIO machine, you will have to acquire access to both
+In order to access the Fulhame machine, you will have to acquire access to both
 the gateway machine, called hydra-vpn, and the machine itself. Access to both
 systems is granted via the `SAFE system <https://safe.epcc.ed.ac.uk/safadmin/>`_ 
 (Note that this is not the same SAFE as the one used for access to ARCHER). 
@@ -24,13 +24,13 @@ account* link on the home screen.
 
 Once you are registered with SAFE, login and proceed to the EPCC SAFE main menu. 
 Select *Login accounts* from the top menu bar and select *request login account*. 
-For the project choose 'nx01 - NextGenIO support' from the drop down menu and
+For the project choose 'fh01 - Fulhame support' from the drop down menu and
 click *next*. On the following page select 'hydra-vpn' and click *next*. Finally,
 select a username and click *request*.
 
-These steps are now repeated to request access to NextgenIO itself. From the 
-EPCC SAFE main menu select *request login account*, set the project to 'nx01 - 
-NextGenIO support', and now select 'NextGenIO' before clicking *next* and
+These steps are now repeated to request access to Fulhame itself. From the 
+EPCC SAFE main menu select *request login account*, set the project to 'fh01 - 
+Fulhame support', and now select 'Fulhame' before clicking *next* and
 again choosing a username.
 
 You can follow the progress of the request under the *login accounts* tab in
@@ -52,11 +52,11 @@ Use the EPCC SAFE password to connect, after which you will be asked to supply
 (and confirm) a permanent password, of your choosing. The option '-X' following 
 the ssh command allows for X11 forwarding over the connection.
 
-After connecting to hydra-vpn, connect to NextgenIO by typing:
+After connecting to hydra-vpn, connect to Fulhame by typing:
 
 ::
 
-    ssh -X [username]@nextgenio-login1
+    ssh -X [username]@fulhame-login1
 
 Upon connecting, use the SAFE password and replace this with a password of choice.
 
@@ -76,15 +76,15 @@ made with a different encryption):
       ForwardAgent yes
       IdentityFile ~/.ssh/id_rsa
 
-     Host nextgenio
+     Host fulhame
       ProxyCommand ssh -W %h:%p hydra-vpn
-      HostName nextgenio-login1
+      HostName fulhame-login1
       ForwardAgent yes
       ForwardX11 yes
       ForwardX11Trusted yes
       User [username]
 
-Note that it is not neccesary to copy your public key to NextgenIO.
+Note that it is not neccesary to copy your public key to Fulhame.
 
 
 Using SSH Clients
@@ -352,9 +352,9 @@ username or the full hostname every time:
     Tue Dec 20 16:48:32 GMT 2016
 
 The second entry in the ".ssh/config" file suggested in the section `Connecting
-using SSH keys`_ automatically connects to NextgenIO via hydra-vpn. It uses
+using SSH keys`_ automatically connects to Fulhame via hydra-vpn. It uses
 the entry for hydra-vpn to make the first connection, and then continues
-straight to NextgenIO.
+straight to Fulhame.
 
 You can set up as many of these entries as you need in your local
 configuration file. Other options are available. See the `ssh_config

@@ -1,6 +1,6 @@
 .. include:: header.rst
 
-NEXTGenIO
+Fulhame
 =========
 
 .. toctree::
@@ -10,15 +10,11 @@ NEXTGenIO
    user_guide/hardware
    user_guide/connect
    user_guide/scheduler
-   user_guide/iosimulator
    user_guide/perftools
    
 .. toctree::
    :maxdepth: 2
    :caption: Software 
-
-   software/hadoop
-   software/tensorflow
 
 
 .. Indices and tables
