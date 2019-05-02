@@ -1,7 +1,7 @@
-NEXTGenIO Documentation
+Fulhame Documentation
 =======================
 
-This repository contains the documentation (in progress) for the NEXTGenIO prototype, aimed at publication on ReadTheDocs once finalised. 
+This repository contains the documentation (in progress) for the Fulhame prototype, aimed at publication on ReadTheDocs once finalised. 
 
 The text format is `reStructuredText <http://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html>`_ and the HTML document is built using `Sphinx <http://www.sphinx-doc.org/en/master/>`_.
 
