@@ -9,7 +9,7 @@ Fulhame
 
    user_guide/hardware
    user_guide/connect
-   user_guide/scheduler
+   user_guide/batch
    user_guide/perftools
    
 .. toctree::
