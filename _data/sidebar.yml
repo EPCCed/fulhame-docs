@@ -1,5 +1,8 @@
 docs_list_title: sidebar
 docs:
+- title: Home
+  url: index.html
+
 - title: Connect
   url: connect.html
 
