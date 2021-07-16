@@ -1,14 +1,4 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
----
----
 ---
 
-@import 'jekyll-theme-dinky';
-
-table img {
-  margin: 0px;
-  border: 0px;
-  vertical-align: text-bottom;
-  padding: 0px;
-}
+@import "{{ site.theme }}";
