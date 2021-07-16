@@ -1,6 +1,8 @@
 docs_list_title: sidebar
 docs:
-  
+- title: Connect
+  url: connect.html
+
 - title: Tools
   url: tools.html
   
