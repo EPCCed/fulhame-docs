@@ -3,6 +3,12 @@ docs:
 - title: Home
   url: index.html
 
+- title: Acknowledgement
+  url: acknowledgement.html
+
+- title: Hardware
+  url: hardware.html
+
 - title: Connect
   url: connect.html
 
