@@ -10,29 +10,23 @@ Each compute node consists of two 32-core Marvell ThunderX2 processors running a
 
 
 Item                | Value
---------------------|--------------------------
-Processor           | Marvell ThunderX2 (ARMv8)   
-Clock speed         | 2.2GHz                      
-Cores per processor | 32                          
-Cores per node      | 64                          
-Vector width        | 128 bit                     
-Double precision    |                             
-FLOPS per cycle     | 8                           
-Maximum node DP     |                             
-GFLOP/s             | 1126.4
-L1 cache (core)     | 32KB                        
-L2 cache (core)     | 256KB                       
-L3 cache (shared)   | 32MB                        
-Memory per node     | 256GB                       
-Memory per core     | 4GB                         
-Memory channels     |                             
-(per processor)     | 8                           
-Specified memory    |                             
-bandwidth (proc)    | 160GB/s                     
-Specified memory    |                             
-bandwidth (core)    | 5.0GB/s                     
-Measured memory     |                             
-bandwidth (node)    | 221.48GB/s                  
+--------------------------------------|---------------
+Processor           | Marvell ThunderX2 (ARMv8)
+Clock speed         | 2.2GHz   
+Cores per processor | 32
+Cores per node      | 64
+Vector width        | 128 bit
+Double precision FLOPS per cycle | 8
+Maximum node DP GFLOP/s | 1126.4
+L1 cache (core)     | 32KB
+L2 cache (core)     | 256KB
+L3 cache (shared)   | 32MB
+Memory per node     | 256GB
+Memory per core     | 4GB
+Memory channels (per proc) | 8
+Specified memory bandwidth (per proc) | 160GB/s
+Specified memory bandwidth (per core) | 5.0GB/s
+Measured memory bandwidth  (per node) | 221.48GB/s
 
 
 ## Support Nodes
