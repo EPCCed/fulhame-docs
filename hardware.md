@@ -10,7 +10,7 @@ Each compute node consists of two 32-core Marvell ThunderX2 processors running a
 
 
 Item                | Value
------------------------------------------------
+--------------------|--------------------------
 Processor           | Marvell ThunderX2 (ARMv8)   
 Clock speed         | 2.2GHz                      
 Cores per processor | 32                          
