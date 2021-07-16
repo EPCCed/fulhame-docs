@@ -18,6 +18,13 @@
         <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
 
+	<span style="color:white; font-size: 18px;">Help</span>  
+        <ul>
+            {% for item in site.data.sidebar.docs %}
+              <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% endfor %}
+        </ul>
+
         <ul>
           {% if site.show_downloads %}
             <li class="download"><a class="buttons" href="{{ site.github.zip_url }}">Download ZIP</a></li>
