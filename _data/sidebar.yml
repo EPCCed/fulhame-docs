@@ -17,3 +17,6 @@ docs:
   
 - title: Compilers
   url: compilers.html
+
+- title: Job Launcher
+  url : job_scheduler.html
