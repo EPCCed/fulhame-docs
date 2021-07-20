@@ -1,21 +1,13 @@
 # Submitting Jobs
 
 
-The NextgenIO system makes use of an adapted version of the `Slurm 
-workload manager <https://slurm.schedmd.com/overview.html>`_. The 
-adaptations make it possible for the user to make use of the various
-implementations of SCM (Storage Class Memory).
+The NextgenIO system makes use of an adapted version of the (Slurm workload manager)[https://slurm.schedmd.com/overview.html]. The adaptations make it possible for the user to make use of the various implementations of SCM (Storage Class Memory).
 
-This section will first introduce the basic usage of Slurm, with the help
-of some simple examples. The second part of the will expand on this, and 
-introduce the new usage of Slurm on the NextgenIO system.
+This section will first introduce the basic usage of Slurm, with the help of some simple examples. The second part of the will expand on this, and introduce the new usage of Slurm on the NextgenIO system.
 
 ## Slurm
 
-
-This section will provide a short overview of some of the basic commands
-required to run jobs with Slurm. For a detailed manual on the use of Slurm,
-please consult the `Slurm documentation pages <https://slurm.schedmd.com/documentation.html>`_.
+This section will provide a short overview of some of the basic commands required to run jobs with Slurm. For a detailed manual on the use of Slurm, please consult the [Slurm documentation pages](https://slurm.schedmd.com/documentation.html>)
 
 
 ### Basic Commands
@@ -23,23 +15,12 @@ please consult the `Slurm documentation pages <https://slurm.schedmd.com/documen
 
 #### System Status
 
-Command | Operation                                                                
--------------------------------------------------------------------------------------
-sinfo     | list available partitions, nodes on these partitions and the status of  
-          | these components. Availability is listed as either *up* or *down*.      
-          | For a full list of node-by-node status enter: ``sinfo --long --Node``   
-sview     | launch a GUI providing an overview of the nodes and node usage. Within  
-          | the GUI individual nodes can be selected to find more detailed          
-          | information on each.                                                    
-squeue    | list the jobs currently submitted to the system. Basic functionality    
-          | returns all jobs, provides the JOBID, the job owner, the requested      
-          | number of nodes and either the allocated nodes or the reason for being  
-          | queued.                                                                 
-scontrol  | combined with options *show node* it will list more detailed, node      
-          | specific information. The nextgenio compute nodes are labelled          
-          | *nexgentio-cn[xx]*. An example command:                                 
-          | ``scontrol show node nextgenio-cn01``                                   
-
+Command       | Operation                                                                
+--------------|-----------------------------------------------------------------------------
+```sinfo```   | list available partitions, nodes on these partitions and the status of these components. Availability is listed as either *up* or *down*. For a full list of node-by-node status enter: ``sinfo --long --Node``
+```sview```   | launch a GUI providing an overview of the nodes and node usage. Within the GUI individual nodes can be selected to find more detailed information on each.
+```squeue```  | list the jobs currently submitted to the system. Basic functionality returns all jobs, provides the JOBID, the job owner, the requested number of nodes and either the allocated nodes or the reason for being queued.
+```scontrol```| combined with options *show node* it will list more detailed, node specific information. The nextgenio compute nodes are labelled *nexgentio-cn[xx]*. An example command: ``scontrol show node nextgenio-cn01``
 
 
 #### Submitting Jobs
