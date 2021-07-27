@@ -1,7 +1,7 @@
-## Welcome to Fulhame Docs
+# Fulhame Documentation
 
-This is the support doucmentation for the Fulhame system at EPCC.
+This is the support documentation for Fulhame, an ARM-based HPC cluster at EPCC, University of Edinburgh.
 
 ### Support or Contact
 
-For help [contact support](mailto:helpdesk@epcc.ed.ac.uk?subject="Fulhame") and we’ll help you sort it out.
+For help please [contact support](mailto:helpdesk@epcc.ed.ac.uk?subject="Fulhame").
