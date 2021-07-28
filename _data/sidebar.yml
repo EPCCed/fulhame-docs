@@ -9,6 +9,9 @@ docs:
 - title: Hardware
   url: hardware.html
 
+- title: Filesystems
+  url: filesystems.html
+
 - title: Connect
   url: connect.html
 
